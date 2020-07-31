@@ -11,9 +11,17 @@ x<-read.csv(file.choose())  # https://data.gov.in/resources-from-web-service/420
 
 head(x)
 
-#DAta
+#Data
+###
+CityName VehicleTypeId                                   Description Year Month Count Amount
+1    Surat             1 MOPED/SCOOTER                                 1989     4     2    293
+2    Surat             1 MOPED/SCOOTER                                 1989     7     1    162
+3    Surat             1 MOPED/SCOOTER                                 1989     8     1    144
+4    Surat             1 MOPED/SCOOTER                                 1989    10     1    144
+5    Surat             9 LOADING TRUCK/TEMPO/TRACTOR 2 TO 4 TON        1989    12     1    216
+6    Surat             1 MOPED/SCOOTER                                 1990     4     1    126
 
-
+###
 
 
 #2. Declare a vector variable having 4 numbers (7,3,4,6) to indicate the count of movies released
